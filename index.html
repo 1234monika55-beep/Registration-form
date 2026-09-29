@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Moni&#39;s restaurant </title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Moni's Restaurant</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Moni's Restaurant</h1>
+
+    <p>No.3, Rajaji street, Chennai</p>
+
+</header>
+
+<nav>
+
+    <button onclick="showPage('home')">Home</button>
+
+    <button onclick="showPage('order')">Order</button>
+
+    <button onclick="showPage('room')">Room Booking</button>
+
+</nav>
+
+<!-- HOME -->
+
+<section id="home" class="active">
+
+    <div class="card about">
+
+        <h2>About Restaurant</h2>
+
+        <p>
+
+            Moni's Restaurant provides a premium dining experience with
+
+            carefully prepared vegetarian and non-vegetarian dishes
+
+           
+
+        </p>
+
+    </div>
+
+    <div class="card special">
+
+        <h2>Chef’s Special</h2>
+
+        🍽️mutton biriyani • Paneer Tikka • Signature Desserts • pizza
+
+    </div>
+
+    <div class="card address">
+
+        <h2>Address</h2>
+
+       No.3, Rajaji street, Chennai.
+
+    </div>
+
+</section>
+
+<!-- ORDER -->
+
+<section id="order">
+
+    <div class="card soft">
+
+        <h2>Place Your Order</h2>
+
+        <input type="text" id="custName" placeholder="Customer Name">
+
+        <input type="number" id="custCount" placeholder="Number of Customers">
+
+        <label><input type="radio" name="food" onclick="loadMenu('veg')"> Veg</label>
+
+        &nbsp;&nbsp;
+
+        <label><input type="radio" name="food" onclick="loadMenu('nonveg')"> Non-Veg</label>
+
+        <div id="menu"></div>
+
+        <button class="btn" onclick="submitOrder()">Submit Order</button>
+
+        <div class="success" id="successMsg">✅ Order Successfully Submitted</div>
+
+    </div>
+
+</section>
+
+<!-- ROOM -->
+
+<section id="room">
+
+    <div class="card special">
+
+        <h2>Room Booking</h2>
+
+        <button class="btn" onclick="loadRooms('ac')">With AC</button>
+
+        <button class="btn alt" onclick="loadRooms('nonac')">Without AC</button>
+
+        <div id="rooms"></div>
+
+        <div class="success" id="roomSuccess">✅ Room Booked Successfully</div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

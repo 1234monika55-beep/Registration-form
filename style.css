@@ -1,0 +1,249 @@
+*{
+
+    box-sizing:border-box;
+
+    font-family: "Segoe UI", sans-serif;
+
+}
+
+body{
+
+    margin:0;
+
+    background:#fff5f9;
+
+    color:#333;
+
+}
+
+/* HEADER */
+
+header{
+
+    background: linear-gradient(90deg,#ff7aa2,#b57edc);
+
+    text-align:center;
+
+    padding:55px 20px;
+
+    color:white;
+
+}
+
+header h1{
+
+    margin:0;
+
+    font-size:44px;
+
+}
+
+header p{
+
+    margin-top:8px;
+
+    font-size:18px;
+
+}
+
+/* NAV */
+
+nav{
+
+    background:#ffffff;
+
+    padding:15px;
+
+    text-align:center;
+
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+
+}
+
+nav button{
+
+    background:none;
+
+    border:none;
+
+    margin:0 22px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:#b57edc;
+
+    cursor:pointer;
+
+}
+
+nav button:hover{
+
+    color:#ff7aa2;
+
+}
+
+/* SECTIONS */
+
+section{
+
+    display:none;
+
+    padding:45px 20px;
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+.active{
+
+    display:block;
+
+}
+
+/* CARDS */
+
+.card{
+
+    border-radius:22px;
+
+    padding:34px;
+
+    margin-bottom:28px;
+
+}
+
+/* pastel blocks */
+
+.about{ background:#ffe1ec; }
+
+.special{ background:#f3e5ff; }
+
+.address{ background:#fde8f3; }
+
+.soft{ background:#efe6ff; }
+
+h2{
+
+    margin-top:0;
+
+    font-size:26px;
+
+    color:#6a1b9a;
+
+}
+
+/* FORM */
+
+input{
+
+    width:100%;
+
+    padding:14px;
+
+    margin:12px 0;
+
+    border-radius:12px;
+
+    border:1px solid #ccc;
+
+    font-size:15px;
+
+}
+
+/* MENU */
+
+.menu-item{
+
+    background:#ffd6e8;
+
+    padding:14px;
+
+    border-radius:14px;
+
+    margin:10px 0;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+.menu-item.selected{
+
+    background:#e2f6ea;
+
+}
+
+/* BUTTON */
+
+.btn{
+
+    background:#b57edc;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 36px;
+
+    font-size:17px;
+
+    border-radius:35px;
+
+    cursor:pointer;
+
+    margin-top:20px;
+
+}
+
+.btn.alt{
+
+    background:#ff8fb1;
+
+}
+
+.btn:hover{
+
+    opacity:0.9;
+
+}
+
+/* SUCCESS */
+
+.success{
+
+    margin-top:20px;
+
+    background:#e6f7ef;
+
+    padding:16px;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+    display:none;
+
+}
+
+/* ROOMS */
+
+.room{
+
+    background:#f6ddff;
+
+    padding:16px;
+
+    border-radius:16px;
+
+    margin:12px 0;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+}
